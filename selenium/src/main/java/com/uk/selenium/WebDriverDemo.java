@@ -11,8 +11,8 @@ public class WebDriverDemo {
 public static void main(String[] args) {
 		
 		try{
-			System.setProperty("webdriver.chrome.driver",
-					"D:\\Users\\unkulkar\\Downloads\\chromedriver.exe");
+			System.setProperty("webdriver.firefox.driver",
+					"D:\\Users\\unkulkar\\Downloads\\geckodriver.exe");
 			
 			WebDriver driver = new ChromeDriver();
 			
